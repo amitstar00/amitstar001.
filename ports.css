@@ -2,7 +2,8 @@
 	font-size: 10px;
 }
 body{
-	margin:0px;
+	overflow-x: hidden;
+        margin:0px;
 	padding: 0px;
 	
 }
@@ -103,9 +104,13 @@ body{
 
 	}
 	.row .image{
-
-		   padding-left: 8vw;
            order: -1;
+	}
+	.row .fok{
+		margin-top: 2vh;
+		width: 40vw;
+		height: auto;
+		border-radius:20%;
 	}
 	.paragraph{
 		width: 100vw;
