@@ -1,0 +1,161 @@
+:root{
+	font-size: 10px;
+}
+body{
+	margin:0px;
+	padding: 0px;
+	
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	
+	flex-direction: column;
+
+
+
+	
+}
+.box{
+	
+     overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	background: #000080;
+	
+	align-self: : center;
+
+
+}
+
+ .box h1{
+	
+    
+	color: white;
+	font-family: sans-serif;
+	font-size: 2rem;
+	font-style:  italic;
+	text-align: center;
+	
+
+	
+}
+.box p{
+	padding-left: 58vw;
+	color: white;
+	font-family: sans-serif;
+	font-size: 2rem;
+	font-style:  italic;
+	margin-left: 4px;
+	
+
+}
+.box .color{
+	color: white;
+	background: #000080;
+	border: none;
+    border-radius: 50%;
+    margin-bottom:  7vh;
+    font-size: 1.5rem;
+    letter-spacing: 8px;
+    transition: box-shadow 0.3s linear 0.1s; 
+
+
+}
+.box .color:hover{
+	cursor: pointer;
+    box-shadow: 2px 6px 30px 4px gray;
+
+}
+.row{
+	
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	background: #008080;
+	
+
+}
+ .paragraph{
+  float: left;
+  color: white;
+  font-family: "Istok Web", sans-serif;
+  font-size: 1.4rem;
+  width: 50vw;
+  margin-left: 4px;
+}
+.row .fok{
+	border: 2px solid black;
+	border-radius: 50%;
+	box-shadow: 0px 3px 20px 4px black;
+	
+	margin-left: 20vw;
+	
+
+
+
+}
+@media (max-width: 600px ){
+	.row{
+		flex-direction: column;
+		justify-content: center;
+
+
+	}
+	.row .image{
+
+		   padding-left: 8vw;
+           order: -1;
+	}
+	.paragraph{
+		width: 100vw;
+		font-size: 2rem;
+	}
+
+}
+.technology{
+	overflow: hidden;
+	display: block;
+	
+
+}
+.technology .myskills{
+	 padding-left: 40vw;
+	font-family: "Istok Web", sans-serif;
+	font-size: 2rem;
+
+}
+.myProject {
+	background: #008080;
+	overflow: hidden;
+	display: block;
+	
+	width: 100vw;
+
+}
+.myProject h1{
+	font-family: "Istok Web", sans-serif;
+	font-size: 2rem;
+}
+.myProject h2{
+	font-family: "Istok Web", sans-serif;
+	font-size: 2rem;
+	font-style: italic;
+
+}
+.social-icon{
+	background: #008080;
+	overflow: hidden;
+
+	
+
+}
+.social-icon .icon{
+
+	  margin-left: 10px;
+       width: 25px;
+       cursor: pointer;
+    
+}
+
+
